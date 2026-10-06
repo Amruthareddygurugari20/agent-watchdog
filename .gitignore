@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.eggs/
+
+# Test / eval artifacts
+.pytest_cache/
+eval_log.jsonl
+*.jsonl
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# QA / render artifacts
+slide-*.jpg
+*.pdf
+
+# Office temp/lock files
+~$*

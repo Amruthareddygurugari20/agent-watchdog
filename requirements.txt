@@ -1,0 +1,12 @@
+# agent-watchdog has ZERO required runtime dependencies — it runs on the Python
+# standard library alone. That is deliberate: the safety tool must always run,
+# with no model download and no API key.
+
+# Development / test dependencies:
+pytest>=7.0
+
+# Optional: the open-weights local LLM judge (Layer 2, implementation "b").
+# Uncomment to enable `LocalLLMJudge`. Not needed for the default HeuristicJudge,
+# the tests, or the benchmark.
+# transformers>=4.40
+# torch>=2.0
